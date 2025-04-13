@@ -1,0 +1,42 @@
+# Add this to your .gitignore file
+src/models/sign_language_model.h5
+
+# Ignore any other large model files you might add in the future
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.onnx
+*.tflite
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+ENV/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swosrc/models/sign_language_model.h5
